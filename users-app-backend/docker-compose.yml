@@ -1,0 +1,28 @@
+version: '3'
+services:
+  postgres:
+    image: postgres:latest
+    container_name: users-app-postgres
+    environment:
+      POSTGRES_USER: levimic
+      POSTGRES_PASSWORD: 123
+      POSTGRES_DB: nest
+    ports:
+      - '5432:5432'
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+
+  nestjs-app:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: users-app-backend
+    volumes:
+      - .:/app
+    ports:
+      - '5173:5173'
+    depends_on:
+      - postgres
+
+volumes:
+  postgres_data:

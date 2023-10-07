@@ -1,0 +1,70 @@
+{
+  "users": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-usersappfrontend-users-150154-authRole",
+      "UnauthRoleArn": "arn:aws:iam::147499315104:role/amplify-usersappfrontend-users-150154-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::147499315104:role/amplify-usersappfrontend-users-150154-authRole",
+      "Region": "us-east-2",
+      "DeploymentBucketName": "amplify-usersappfrontend-users-150154-deployment",
+      "UnauthRoleName": "amplify-usersappfrontend-users-150154-unauthRole",
+      "StackName": "amplify-usersappfrontend-users-150154",
+      "StackId": "arn:aws:cloudformation:us-east-2:147499315104:stack/amplify-usersappfrontend-users-150154/68e60e60-4db9-11ee-a194-0aebf27f096f",
+      "AmplifyAppId": "d27y8zcefsqf55",
+      "AuthTriggerTemplateURL": "https://s3.amazonaws.com/amplify-usersappfrontend-users-150154-deployment/amplify-cfn-templates/auth/auth-trigger-cloudformation-template.json"
+    },
+    "categories": {
+      "auth": {
+        "UsersApp": {}
+      },
+      "function": {
+        "UsersAppPostConfirmation": {
+          "GROUP": "Basic",
+          "deploymentBucketName": "amplify-usersappfrontend-users-150154-deployment",
+          "s3Key": "amplify-builds/UsersAppPostConfirmation-64745547776a426b3238-build.zip"
+        },
+        "AdminQueries4adee39d": {
+          "deploymentBucketName": "amplify-usersappfrontend-users-150154-deployment",
+          "s3Key": "amplify-builds/AdminQueries4adee39d-4777496f427351686665-build.zip"
+        },
+        "UsersApp": {}
+      },
+      "api": {
+        "AdminQueries": {}
+      }
+    }
+  },
+  "usersapp": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-usersappfrontend-usersapp-163259-authRole",
+      "UnauthRoleArn": "arn:aws:iam::147499315104:role/amplify-usersappfrontend-usersapp-163259-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::147499315104:role/amplify-usersappfrontend-usersapp-163259-authRole",
+      "Region": "us-east-2",
+      "DeploymentBucketName": "amplify-usersappfrontend-usersapp-163259-deployment",
+      "UnauthRoleName": "amplify-usersappfrontend-usersapp-163259-unauthRole",
+      "StackName": "amplify-usersappfrontend-usersapp-163259",
+      "StackId": "arn:aws:cloudformation:us-east-2:147499315104:stack/amplify-usersappfrontend-usersapp-163259/9735afb0-62fd-11ee-9085-0262fddb0cd3",
+      "AmplifyAppId": "d35wy33mxam6et",
+      "AuthTriggerTemplateURL": "https://s3.amazonaws.com/amplify-usersappfrontend-usersapp-163259-deployment/amplify-cfn-templates/auth/auth-trigger-cloudformation-template.json"
+    },
+    "categories": {
+      "auth": {
+        "UsersApp": {}
+      },
+      "function": {
+        "AdminQueries4adee39d": {
+          "deploymentBucketName": "amplify-usersappfrontend-usersapp-163259-deployment",
+          "s3Key": "amplify-builds/AdminQueries4adee39d-4777496f427351686665-build.zip"
+        },
+        "UsersAppPostConfirmation": {
+          "GROUP": "Basic",
+          "deploymentBucketName": "amplify-usersappfrontend-usersapp-163259-deployment",
+          "s3Key": "amplify-builds/UsersAppPostConfirmation-64745547776a426b3238-build.zip"
+        },
+        "UsersApp": {}
+      },
+      "api": {
+        "AdminQueries": {}
+      }
+    }
+  }
+}
